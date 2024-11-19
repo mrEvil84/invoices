@@ -1,5 +1,12 @@
 ## Zadanie rekrutacyjne
 
+### Rozw.
+#### Dodałem mail catcher 
+```
+http://localhost:8384/
+```
+
+
 Aplikacja jest małym systemem pozwalającym dodawać faktury (Invoice) do kontrahentów (User). System jest w początkowej fazie rozwoju i pozwala na uruchomienie dwóch poleceń z CLI.
 
 ```

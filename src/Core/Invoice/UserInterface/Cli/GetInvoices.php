@@ -40,7 +40,7 @@ class GetInvoices extends Command
 
                 /** @var InvoiceDTO $invoice */
                 foreach ($invoices as $invoice) {
-                    $output->writeln($invoice->id);
+                    $output->writeln((string)$invoice->id);
                 }
             } else {
                 $output->writeln('No invoices found.');
